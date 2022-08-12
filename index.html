@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="./css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="./css/vuetify.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  <script src="./js/vue.js"></script>
+  <script src="./js/vue-router.js"></script>
+  <script src="./js/axios.min.js"></script>
+  <script src="./js/vuetify.js"></script>
+  <!-- 引入 http-vue-loader -->
+  <script src="./js/httpVueLoader.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <v-app>
+      <v-main>
+        <v-container class="" style="height: 100%;">
+          <v-btn to="/">view1</v-btn>
+          <v-btn to="view2">view2</v-btn>
+          <router-view></router-view>
+        </v-container>
+      </v-main>
+    </v-app>
+  </div>
+  <script src="/router.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
