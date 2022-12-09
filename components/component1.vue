@@ -1,6 +1,6 @@
 <template>
   <v-dialog v-model="dialog">
-    <v-card height="80%"> component1 </v-card>
+    <v-card height="300"> component1 </v-card>
   </v-dialog>
 </template>
  
